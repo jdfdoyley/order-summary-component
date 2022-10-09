@@ -55,7 +55,12 @@ body {
 }
 
 .card-body {
+  font-size: 1.125rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   padding: 32px;
+  text-align: center;
 }
 
 .card-body > * {
@@ -66,6 +71,33 @@ body {
   line-height: 24px;
 }
 
+.card .plan {
+  background-color: var(--very-pale-blue);
+  border-radius: 12px;
+  font-size: 16px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 24px;
+}
+
+.card .plan .plan-type {
+  color: var(--dark-blue);
+}
+
+.card .link-change {
+  color: var(--bright-blue);
+  font-size: 0.8123rem;
+  font-weight: 700;
+}
+
+.card .link-change:hover {
+  text-decoration: none;
+}
+
 .card .btn-submit {
   background-color: var(--bright-blue);
   box-shadow: 0 20px 30px -8px rgb(197 198 245);
@@ -73,7 +105,8 @@ body {
   padding: 1rem 0;
 }
 
-.card .btn-submit:hover {
+.card .btn-submit:hover,
+.card .link-change:hover {
   opacity: 0.8;
 }
 
