@@ -21,3 +21,13 @@ body {
   color: var(--desaturated-blue);
   width: 450px;
 }
+
+.card-title {
+  color: var(--dark-blue);
+  font-weight: 900;
+  font-size: 32px;
+}
+
+.card-hero-img {
+  width: 100%;
+}
