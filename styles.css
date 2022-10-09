@@ -15,3 +15,9 @@ body {
   background-size: cover;
   background-color: var(--pale-blue);
 }
+
+.card {
+  background-color: #fff;
+  color: var(--desaturated-blue);
+  width: 450px;
+}
