@@ -49,8 +49,8 @@ Users should be able to:
 
 ### Links
 
-- GitHub Repo: [Add solution URL here](https://your-solution-url.com)
-- Live Site: [Add live site URL here](https://your-live-site-url.com)
+- GitHub Repo: [https://github.com/jdfdoyley/order-summary-component](https://github.com/jdfdoyley/order-summary-component)
+- Live Site: [https://order-summary-component-ten-ashen.vercel.app/](https://order-summary-component-ten-ashen.vercel.app/)
 
 ## My process
 
