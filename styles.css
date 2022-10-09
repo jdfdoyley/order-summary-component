@@ -27,6 +27,15 @@ body {
   font-size: 16px;
 }
 
+.btn {
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 700;
+  width: 100%;
+}
+
 .card {
   background-color: #fff;
   border-radius: 16px;
@@ -49,6 +58,31 @@ body {
   padding: 32px;
 }
 
+.card-body > * {
+  margin: 12px 0;
+}
+
 .card-description {
   line-height: 24px;
+}
+
+.card .btn-submit {
+  background-color: var(--bright-blue);
+  box-shadow: 0 20px 30px -8px rgb(197 198 245);
+  color: #fff;
+  padding: 1rem 0;
+}
+
+.card .btn-submit:hover {
+  opacity: 0.8;
+}
+
+.card .btn-cancel {
+  background-color: #fff;
+  color: var(--desaturated-blue);
+  margin-top: 24px;
+}
+
+.card .btn-cancel:hover {
+  color: #000;
 }
